@@ -1,0 +1,95 @@
+a{
+    text-decoration: none;
+}
+
+.perfil{
+    width: 30%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.perfil .informacoesPsi{
+    margin: 0%;
+    width: 100%;
+    height: 300px;
+    background-color: #6d5ea8;
+}
+
+/* Propriedade que guarda a div da "foto" */
+.perfil .guarda{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    margin-bottom: 5%;
+    /* background-color: blue/ */
+}
+
+.perfil .guarda .foto{
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    padding-left: 60px;
+    border-radius: 50%;
+    /* background-color: #c5e0ed; */
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQFGW_lhh2mF4A/profile-displayphoto-shrink_200_200/0/1610929786193?e=1655337600&v=beta&t=73Z3pcV1HeXcmhY8DGyTkxzwW0sNbUTsGX0C5Fq99BM);
+}
+
+.perfil .dados{
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+}
+
+
+/* Dentro do Modal */
+/* .perfil .modal p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+} */
+.perfil .novoEvento .form-control{
+    width: 80%; 
+    height: 30px; 
+    border: 1px solid black;
+    border-radius:  6.5px;
+    margin: 0 10%;
+}
+.perfil .novoEvento #areatxt{
+    height: 85px;
+}
+
+.perfil .novoEvento #tempoo{
+    width: 100%;
+}
+.perfil .novoEvento #tempoo .ini {
+    width: 50%;
+    float: left;
+}
+.perfil .novoEvento #tempoo .term {
+    width: 50%;
+    float: left;
+}
+#tem1, #tem2{
+    width: 70%;
+}
+#tem1{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+.propriedades{
+    width: 70%;
+    height: 900px;
+    background-color: #c5e0ed;
+    float: left;
+}

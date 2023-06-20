@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c5e0ed;
+}
+
+/* "Div" principal, onde contém tudo sobre o formulário (Caixa roxa) */
+form{
+    width: 30%;
+    height: 500px;
+    margin: 20px auto;
+    text-align: center;
+    /* background:  linear-gradient(rgb(151, 87, 207),rgb(204, 153, 245)); */
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* Titulo do form, dentro da caixa principal do form */
+form h3{
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* Todos inputs, incluindo o botão, que foi feito em input */
+input{
+    width: 60%;
+    height: 50px;
+    display: block;
+    margin: 4% auto;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: rgb(94, 23, 207) 1px solid;
+    color: black;
+}
+
+/* Espaçamento entre o primeiro input e o titulo */
+.inum{
+    margin-top: 10%;
+}
+
+.inum::placeholder{
+    font-size: 15px;
+    /* color: rgb(255, 0, 0); */
+    margin: 0 50px;
+}
+.indois::placeholder{
+    font-size: 15px;
+    /* color: rgb(255, 0, 0); */
+    margin: 0 50px;
+}
+
+.botao{
+    margin: 140px auto;
+    background-color: rgb(226, 226, 226);
+    /* padding: 20px; */
+    transition: all .5s;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* #buttonSubmit{
+    cursor: pointer;
+    background-color: #eaeaea;
+} */
+
+.botao:hover{
+    cursor: pointer;
+    background-color: rgb(226, 195, 240);
+    /* transition: color .5s; */
+}
